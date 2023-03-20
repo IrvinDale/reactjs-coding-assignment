@@ -1,14 +1,11 @@
+# reactjs-coding-assignment
+
 ### Objective
 
-Using JavaScript and React, your assignment is to implement a responsive signup form and get it looking as close to the design as possible.
+Using JavaScript and React, this assignment is to implement a responsive signup form to build out the project to the designs inside the `/design` folder.
+Both a mobile and a desktop version of the design are available to work to.
 
-### Brief
-
-The design team at TelemedMD has provided you with designs for a new signup form! Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to. You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-### Tasks
-
--   Implement assignment using:
+-   Implemented assignment using:
     -   Language: **JavaScript**
     -   Framework: **React**
 -   Your users should be able to:
@@ -20,24 +17,3 @@ The design team at TelemedMD has provided you with designs for a new signup form
 -   You will find all the required assets in the `/images` folder. The assets are already optimized.
 -   There is also a `style-guide.md` file, containing the information you'll need, such as color palette and fonts.
 
-### Evaluation Criteria
-
--   **JavaScript** best practices
--   Show us your work through your commit history
--   We're looking for you to produce working code, with enough room to demonstrate how to structure components in a small program
--   Completeness: did you complete the features?
--   Correctness: does the functionality act in sensible, thought-out ways?
--   Maintainability: is it written in a clean, maintainable way?
--   Testing: is the system adequately tested?
-
-### Deliverables
-
-Make sure to include all source code in the repository. 
-
-### CodeSubmit
-
-Please organize, design, test and document your code as if it were going into production - then push your changes to the master branch. After you have pushed your code, you may submit the assignment on the assignment page.
-
-All the best and happy coding,
-
-The TelemedMD Team
