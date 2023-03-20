@@ -1,0 +1,203 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+
+
+.home-container {
+   background-image: url("../images/bg-intro-desktop.png");
+   background-color: hsl(0, 100%, 74%);
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+}
+
+.text-column {
+   border-color: black;
+   border-width: 1px;
+   margin: auto;
+   margin-left: 5%;
+   margin-right: 4%;
+   display: flex;
+   flex-direction: column;
+}
+
+.form-column {
+   border-color: black;
+   border-width: 1px;
+   margin: auto;
+   margin-left: 4%;
+   margin-right: 5%;
+}
+
+.text-column-header {
+   font-family: 'Poppins', sans-serif;
+   color: hsl(0, 1%, 100%);
+   font-size: 55px;
+   font-weight: 700;
+   margin-bottom: 5%;
+}
+
+.text-column-body {
+   font-family: 'Poppins', sans-serif;
+   color: hsl(0, 1%, 100%);
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.form-card-container {
+   padding: 8%;
+   box-shadow: 0px 8px 4px rgb(128, 128, 128, 0.5);
+   min-width: 310px;
+}
+
+.form-card-header {
+   background-color: hsl(248, 32%, 49%);
+   margin-bottom: 5%;
+   padding: 3%;
+   box-shadow: 0px 8px 4px rgb(128, 128, 128, 0.5);
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.form-card-header-text {
+   font-family: 'Poppins', sans-serif;
+   color: hsl(0, 1%, 100%);
+   font-size: 16px;
+   font-weight: 400;
+   display: flex;
+   justify-content: center;
+   padding-top: 3px;
+}
+
+
+.form-input-field {
+   font-family: 'Poppins', sans-serif;
+}
+
+.form-input-field:focus {
+   border-color: hsl(249, 10%, 26%) !important;
+   box-shadow: 0px 0px 5px hsl(246, 25%, 77%) !important;
+   caret-color: hsl(248, 32%, 49%);
+}
+
+.form-input-field:hover {
+   border-color: hsl(0, 0%, 50%);
+}
+
+.was-validated .form-control:invalid {
+   background-image: url("../images/icon-error.svg");
+}
+
+.was-validated .form-input-field:focus:invalid {
+   border-color: hsl(0, 100%, 74%) !important;
+   box-shadow: 0px 0px 5px hsl(0, 100%, 74%) !important;
+}
+
+.was-validated .form-input-field:valid {
+   border-color: hsl(246, 25%, 77%) !important;
+}
+
+.form-claim-button {
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   background-color: hsl(154, 59%, 51%) !important;
+   border-color: hsl(154, 59%, 51%) !important;
+   box-shadow: 0px 3px 2px hsl(154, 56%, 42%, 80%);
+   font-family: 'Poppins', sans-serif;
+   color: hsl(0, 1%, 100%);
+   font-size: 16px;
+   font-weight: 400;
+   padding: 0.7rem;
+}
+
+.form-claim-button:hover {
+   background-color: hsl(154, 72%, 65%) !important;
+}
+
+.form-claim-button:focus {
+   box-shadow: 0px 3px 10px hsl(154, 56%, 42%, 80%) !important;
+}
+
+.form-footer-text {
+   font-family: 'Poppins', sans-serif;
+   font-size: 11px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   white-space: nowrap;
+   margin-top: 8px;
+}
+
+.terms-and-services-link {
+   font-size: 11px;
+   text-align: center;
+   text-decoration: none;
+   color: hsl(0, 100%, 74%);
+   font-weight: 600;
+   margin-left: 5px;
+}
+
+.terms-and-services-link:hover {
+   color: hsl(0, 43%, 55%);
+}
+
+.form-feedback {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   font-style: italic;
+   font-size: 11px;
+   text-align: right;
+}
+
+.attribution {
+   font-size: 11px;
+   text-align: center;
+}
+
+.attribution a {
+   color: hsl(228, 45%, 44%);
+}
+
+/* Mobile view */
+@media screen and (max-width: 425px) {
+   .text-column {
+      min-width: 300px;
+      margin: auto;
+      margin-left: 5px;
+      margin-right: 5px;
+   }
+
+   .form-column {
+      min-width: 300px;
+      margin: auto;
+      margin-left: 5px;
+      margin-right: 5px;
+   }
+
+   .text-column-header {
+      font-size: 30px;
+      text-align: center;
+      margin-top: 20%;
+   }
+
+   .text-column-body {
+      font-size: 14px;
+      text-align: center;
+      margin-bottom: 20%;
+   }
+
+   .form-card-container {
+      min-width: 250px;
+   }
+
+   .form-input-field {
+      font-size: 16px;
+   }
+
+   .form-claim-button {
+      font-size: 14px;
+   }
+
+}
