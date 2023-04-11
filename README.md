@@ -17,3 +17,10 @@ Both a mobile and a desktop version of the design are available to work to.
 -   You will find all the required assets in the `/images` folder. The assets are already optimized.
 -   There is also a `style-guide.md` file, containing the information you'll need, such as color palette and fonts.
 
+### First time run the project
+
+- Install all libraries required: 
+    - npm install
+
+- Run Client
+    - npm start
